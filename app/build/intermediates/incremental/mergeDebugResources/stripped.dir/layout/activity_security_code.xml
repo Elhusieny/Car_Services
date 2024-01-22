@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".SecurityCodeActivity">
+
+    <EditText
+        android:id="@+id/txtseccode"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/shapetxt"
+        android:backgroundTint="#FFC107"
+        android:ems="10"
+        android:hint="Enter Security code "
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/chkseccode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chkseccode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/shapebutton"
+        android:text="Chek Security Code"
+        android:onClick="confirmseccode"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtnewpass"
+        app:layout_constraintStart_toStartOf="@+id/txtseccode"
+        app:layout_constraintTop_toBottomOf="@+id/txtseccode" />
+
+    <EditText
+        android:id="@+id/txtnewpass"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/shapetxt"
+        android:backgroundTint="#FFC107"
+        android:ems="10"
+        android:hint="Enter New Password"
+        android:visibility="invisible"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btnupdatenewpass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkseccode" />
+
+    <Button
+        android:id="@+id/btnupdatenewpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="342dp"
+        android:background="@drawable/shapebutton"
+
+        android:text="Create New Pass"
+        android:onClick="upadtenewpass"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnewpass" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.carsevices"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:11:22-64
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <application
+32-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:13:5-63:19
+33        android:allowBackup="true"
+33-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:14:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.5.0] C:\Users\lenovo\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@drawable/logo"
+36-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:15:9-38
+37        android:label="@string/app_name"
+37-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:16:9-41
+38        android:roundIcon="@drawable/logo"
+38-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:17:9-43
+39        android:supportsRtl="true"
+39-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:18:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.CarSevices" >
+41-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:19:9-48
+42
+43        <!--
+44             The API key for Google Maps-based APIs is defined as a string resource.
+45             (See the file "res/values/google_maps_api.xml").
+46             Note that the API key is linked to the encryption key used to sign the APK.
+47             You need a different API key for each encryption key, including the release key that is used to
+48             sign the APK for publishing.
+49             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+50        -->
+51        <meta-data
+51-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:29:9-31:55
+52            android:name="com.google.android.geo.API_KEY"
+52-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:30:13-58
+53            android:value="@string/google_maps_key" />
+53-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:31:13-52
+54
+55        <activity
+55-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:33:9-36:59
+56            android:name="com.example.carsevices.MapsActivity"
+56-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:34:13-41
+57            android:exported="true"
+57-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:35:13-36
+58            android:label="@string/title_activity_maps" />
+58-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:36:13-56
+59        <activity
+59-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:37:9-39:39
+60            android:name="com.example.carsevices.SecurityCodeActivity"
+60-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:38:13-49
+61            android:exported="true" />
+61-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:39:13-36
+62        <activity
+62-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:40:9-44:67
+63            android:name="com.example.carsevices.MainUserActivity"
+63-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:41:13-45
+64            android:exported="true"
+64-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:42:13-36
+65            android:label="@string/title_activity_main_user"
+65-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:43:13-61
+66            android:theme="@style/Theme.CarSevices.NoActionBar" />
+66-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:44:13-64
+67        <activity
+67-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:45:9-47:39
+68            android:name="com.example.carsevices.RegisterActivity"
+68-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:46:13-45
+69            android:exported="true" />
+69-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:47:13-36
+70        <activity
+70-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:48:9-50:72
+71            android:name="com.example.carsevices.LoginActivity"
+71-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:49:13-42
+72            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+72-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:50:13-69
+73        <activity
+73-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:51:9-62:20
+74            android:name="com.example.carsevices.FullscreenActivity"
+74-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:52:13-47
+75            android:configChanges="orientation|keyboardHidden|screenSize"
+75-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:53:13-74
+76            android:exported="true"
+76-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:54:13-36
+77            android:label="@string/app_name"
+77-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:55:13-45
+78            android:theme="@style/Theme.CarSevices.Fullscreen" >
+78-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:56:13-63
+79            <intent-filter>
+79-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:57:13-61:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:58:17-69
+80-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:58:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:60:17-77
+82-->C:\Users\lenovo\AndroidStudioProjects\CarSevices\app\src\main\AndroidManifest.xml:60:27-74
+83            </intent-filter>
+84        </activity>
+85        <!-- Needs to be explicitly declared on P+ -->
+86        <uses-library
+86-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+87            android:name="org.apache.http.legacy"
+87-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+88            android:required="false" />
+88-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\lenovo\caches\transforms-3\fc2012bcf03b33263efc535e1e35d4df\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lenovo\caches\transforms-3\ee92f22a1ee2214579766684575d8b5a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lenovo\caches\transforms-3\ee92f22a1ee2214579766684575d8b5a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lenovo\caches\transforms-3\ee92f22a1ee2214579766684575d8b5a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lenovo\caches\transforms-3\ee92f22a1ee2214579766684575d8b5a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lenovo\caches\transforms-3\694c23fb96eea3960a99fa698a952346\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lenovo\caches\transforms-3\694c23fb96eea3960a99fa698a952346\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lenovo\caches\transforms-3\694c23fb96eea3960a99fa698a952346\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+98    </application>
+99
+100</manifest>

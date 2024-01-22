@@ -1,0 +1,99 @@
+com/example/carsevices/MainUserActivity.java
+ com.example.carsevices.MainUserActivity
+ com.example.carsevices.MainUserActivity$1
+ com.example.carsevices.MainUserActivity$2
+com/example/carsevices/Getproducts.java
+ com.example.carsevices.Getproducts
+com/example/carsevices/AdapterProducts.java
+ com.example.carsevices.AdapterProducts
+ com.example.carsevices.AdapterProducts$Holder
+com/example/carsevices/ui/slideshow/SlideshowFragment.java
+ com.example.carsevices.ui.slideshow.SlideshowFragment
+ com.example.carsevices.ui.slideshow.SlideshowFragment$1
+com/example/carsevices/GPSTracker.java
+ com.example.carsevices.GPSTracker
+ com.example.carsevices.GPSTracker$1
+ com.example.carsevices.GPSTracker$2
+com/example/carsevices/ui/gallery/GalleryFragment.java
+ com.example.carsevices.ui.gallery.GalleryFragment
+ com.example.carsevices.ui.gallery.GalleryFragment$1
+com/example/carsevices/databinding/ProductlayoutBinding.java
+ com.example.carsevices.databinding.ProductlayoutBinding
+com/example/carsevices/databinding/ActivityLoginBinding.java
+ com.example.carsevices.databinding.ActivityLoginBinding
+com/example/carsevices/databinding/ActivityMapsBinding.java
+ com.example.carsevices.databinding.ActivityMapsBinding
+com/example/carsevices/databinding/ContentMainUserBinding.java
+ com.example.carsevices.databinding.ContentMainUserBinding
+com/example/carsevices/databinding/FragmentGalleryBinding.java
+ com.example.carsevices.databinding.FragmentGalleryBinding
+com/example/carsevices/MapsActivity.java
+ com.example.carsevices.MapsActivity
+ com.example.carsevices.MapsActivity$1
+ com.example.carsevices.MapsActivity$1$1
+ com.example.carsevices.MapsActivity$2
+com/example/carsevices/GetDepartments.java
+ com.example.carsevices.GetDepartments
+com/example/carsevices/databinding/NavHeaderMainUserBinding.java
+ com.example.carsevices.databinding.NavHeaderMainUserBinding
+com/example/carsevices/RegisterActivity.java
+ com.example.carsevices.RegisterActivity
+ com.example.carsevices.RegisterActivity$1
+ com.example.carsevices.RegisterActivity$2
+ com.example.carsevices.RegisterActivity$3
+com/example/carsevices/AdapterDepartments.java
+ com.example.carsevices.AdapterDepartments
+ com.example.carsevices.AdapterDepartments$Holder
+com/example/carsevices/databinding/DepartmentslayoutBinding.java
+ com.example.carsevices.databinding.DepartmentslayoutBinding
+com/example/carsevices/databinding/FragmentSlideshowBinding.java
+ com.example.carsevices.databinding.FragmentSlideshowBinding
+com/example/carsevices/databinding/AppBarMainUserBinding.java
+ com.example.carsevices.databinding.AppBarMainUserBinding
+com/example/carsevices/Database.java
+ com.example.carsevices.Database
+com/example/carsevices/ui/slideshow/SlideshowViewModel.java
+ com.example.carsevices.ui.slideshow.SlideshowViewModel
+com/example/carsevices/databinding/ActivitySecurityCodeBinding.java
+ com.example.carsevices.databinding.ActivitySecurityCodeBinding
+com/example/carsevices/PicassoClient.java
+ com.example.carsevices.PicassoClient
+com/example/carsevices/ui/home/HomeViewModel.java
+ com.example.carsevices.ui.home.HomeViewModel
+com/example/carsevices/Departments.java
+ com.example.carsevices.Departments
+com/example/carsevices/ui/gallery/GalleryViewModel.java
+ com.example.carsevices.ui.gallery.GalleryViewModel
+com/example/carsevices/databinding/ActivityFullscreenBinding.java
+ com.example.carsevices.databinding.ActivityFullscreenBinding
+com/example/carsevices/databinding/ActivityRegisterBinding.java
+ com.example.carsevices.databinding.ActivityRegisterBinding
+com/example/carsevices/LoginActivity.java
+ com.example.carsevices.LoginActivity
+ com.example.carsevices.LoginActivity$1
+ com.example.carsevices.LoginActivity$2
+ com.example.carsevices.LoginActivity$2$1
+ com.example.carsevices.LoginActivity$2$1$1
+com/example/carsevices/BuildConfig.java
+ com.example.carsevices.BuildConfig
+com/example/carsevices/FullscreenActivity.java
+ com.example.carsevices.FullscreenActivity
+ com.example.carsevices.FullscreenActivity$1
+ com.example.carsevices.FullscreenActivity$2
+ com.example.carsevices.FullscreenActivity$3
+ com.example.carsevices.FullscreenActivity$4
+ com.example.carsevices.FullscreenActivity$5
+com/example/carsevices/databinding/ForgetpasswordBinding.java
+ com.example.carsevices.databinding.ForgetpasswordBinding
+com/example/carsevices/ui/home/HomeFragment.java
+ com.example.carsevices.ui.home.HomeFragment
+ com.example.carsevices.ui.home.HomeFragment$1
+ com.example.carsevices.ui.home.HomeFragment$2
+com/example/carsevices/SecurityCodeActivity.java
+ com.example.carsevices.SecurityCodeActivity
+com/example/carsevices/databinding/ActivityMainUserBinding.java
+ com.example.carsevices.databinding.ActivityMainUserBinding
+com/example/carsevices/products.java
+ com.example.carsevices.products
+com/example/carsevices/databinding/FragmentHomeBinding.java
+ com.example.carsevices.databinding.FragmentHomeBinding

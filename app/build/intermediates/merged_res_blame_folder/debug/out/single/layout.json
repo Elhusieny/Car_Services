@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\forgetpassword.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\forgetpassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main_user.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\nav_header_main_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\productlayout.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\productlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_user.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\activity_main_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fullscreen.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\activity_fullscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_security_code.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\activity_security_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main_user.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\app_bar_main_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\departmentslayout.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\departmentslayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main_user.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\CarSevices\\app\\src\\main\\res\\layout\\content_main_user.xml"
+    }
+]
